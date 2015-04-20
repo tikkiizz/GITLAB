@@ -3,9 +3,10 @@
 
 int main()
 {
-    int x;
+    int x,y;
     printf("Enter your love number: ");
     scanf("%d",&x);
     printf("Hello Your love number is %d\n",x);
+    y=x*x;
     return 0;
 }
