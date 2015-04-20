@@ -3,9 +3,9 @@
 
 int main()
 {
-    char name[10];
+    char name[20];
     printf("Enter your name: ");
     scanf("%s",name);
-    printf("Hello Your Name is %s\n",name);
+    printf("Hello your name is %s\n",name);
     return 0;
 }
